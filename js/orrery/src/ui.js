@@ -1,6 +1,6 @@
 import * as ORR from "./init.js";
-import * as TWEEN from "../../tween/tween.esm.js";
-import $ from "../../jquery/jquery.module.js";
+import * as TWEEN from "./tween/tween.esm.js";
+import $ from "./jquery/jquery.module.js";
 
 const planetScale = {f: 1.0};
 const planetMoons = []; // moons of the the currently focused planet
